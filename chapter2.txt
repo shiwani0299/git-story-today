@@ -1,0 +1,117 @@
+Below are the command after the command written in  chapter1.txt continuation.
+
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control (main)
+$ mkdir git-story-today
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control (main)
+$ cd git-story-today/
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter2.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter3.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter2.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter3.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git init
+Initialized empty Git repository in D:/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today/.git/
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ ls -a
+./  ../  .git/  chapter1.txt  chapter2.txt  chapter3.txt  chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter1.txt
+        chapter2.txt
+        chapter3.txt
+        chapter4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git add chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter2.txt
+        chapter3.txt
+        chapter4.txt
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git add chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git status
+On branch main
+
+
+
+#NOTE: 
+//git init command to initialize git in the required directory 
+//ls -a command to see all the hidden files, to track all changes, to commit changes, and to perform version control.
+
+// We want to add the file (chapter1.txt) to a staging area inside the working directory. Staging area is an intermediate place where we can pick and choose which file inside your working directory that you want to commit.
+
+// git status command is used to see what actually is inside your staging area.
+ => this will show untracted file (shown in red color) which is inside the working durectory but not yet in the Staging Area (Intermediate place)
+
+=> in order to add it in the staging area and to stop tracking changes in it we have to use command  ...
+
+//git add filename.extension command  is used in order to add it in the staging area and to stop tracking changes.
+  => git add chapter1.txt in this case
+
+Now if we use git status command again it will show :
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+
+--- Similarly we will add chapter2.txt, chapter3.txt and chapter4.txt in staging area of working director by using git add command

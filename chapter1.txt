@@ -1,0 +1,37 @@
+
+The code in gitbash command line uptil now : 
+#We are working inside "git-story-today" directory which can also be  called as "Working Directory".
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control (main)
+$ mkdir git-story-today
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control (main)
+$ cd git-story-today/
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter2.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter3.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ touch chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter1.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter2.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter3.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ code chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$
