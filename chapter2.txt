@@ -75,15 +75,6 @@ Untracked files:
         chapter4.txt
 
 
-Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
-$
-
-Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
-$ git add chapter1.txt
-
-Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
-$ git status
-On branch main
 
 
 

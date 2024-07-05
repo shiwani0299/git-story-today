@@ -1,0 +1,71 @@
+Below are the command after the command written in  chapter3.txt continuation.
+//Here we have added chapter2.txt, chapter3.txt and chapter4.txt in a similar way we added chapter1.txt and then we checked status of files in working director using git status command and all the file should be shown in green color which means all the files are in Staging Area of Working Directory and are Ready to be Committed...
+
+
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git add chapter2.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+        new file:   chapter2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter3.txt
+        chapter4.txt
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git add chapter3.txt chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+        new file:   chapter2.txt
+        new file:   chapter3.txt
+        new file:   chapter4.txt
+
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git commit -m "Complete Chapter 1"
+[main (root-commit) 46f4854] Complete Chapter 1
+ 4 files changed, 154 insertions(+)
+ create mode 100644 chapter1.txt
+ create mode 100644 chapter2.txt
+ create mode 100644 chapter3.txt
+ create mode 100644 chapter4.txt
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today (main)
+$ git log 
+commit 46f485437f4326901b51b3cd7d272081ceaac854 (HEAD -> main)
+Author: Shiwani <kandpalshiwani1999@gmail.com>
+Date:   Fri Jul 5 14:23:03 2024 +0530
+
+    Complete Chapter 1
+
+
+
+
+
+// git commit -m  command -m flag is used to add a commit message, commit message is really imp as it helps to track of what changes have been made in each commit. So whenever you create a new save point , you have to be as explicit as possible about what changes were made between the last save point and the current save point.
+
+=> Here we can write "Initial commit" as  message for the initial commit which shows that this is our starting point, 
+Alternatively we can be slightly more specific by writing commit message as "Complete Chapter 1" 
+Since i have already add all 4 chapters to staging are then i can write
+git commit -m "All Chapters Complete"  in the comple message.
+=> commit messages are always written in the present tense.
